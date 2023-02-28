@@ -1,0 +1,38 @@
+:root {
+    --textintern: #FFFFFF;
+}
+
+body {
+    background-color: #043353;
+    color: var(--textintern);
+    font: normal 15pt Arial;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    width: 550px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.322)
+}
+
+select#flista {
+    width: 150px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    text-align: center;
+    font: italic 12pt Arial;
+}
